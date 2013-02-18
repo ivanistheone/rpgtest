@@ -1,3 +1,9 @@
+/*  RPG test 
+    Jarryd Novotni and Ivan Savov
+	Feb 2013
+	
+*/
+
 window.onload = function() {
 	
 	var canvasX, canvasY, numTilesX, numTilesY;

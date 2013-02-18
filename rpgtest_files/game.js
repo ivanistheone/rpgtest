@@ -150,7 +150,7 @@ window.onload = function() {
 				else if(this.isDown("LEFT_ARROW")) this.x += this._speed; 
 				else if(this.isDown("UP_ARROW")) this.y += this._speed;
 				else if(this.isDown("DOWN_ARROW")) this.y -= this._speed;
-				console.log("solid hit man");
+				console.log("solid hit, man");
 				//this.stop();
 			})
 			/*.onHit("wall_left", function() {

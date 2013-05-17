@@ -1,0 +1,162 @@
+/**
+ * Created by JetBrains PhpStorm.
+ *
+ * Company: dmr solutions gmbh, http://www.dmr-solutions.com
+ * Author:  Christian Nielebock (cn), <cn@dmr-solutions.com>
+ *
+ * Date: 30.04.12
+ * Time: 08:14
+ */
+
+/**
+ * import web font
+ */
+@import url(http://fonts.googleapis.com/css?family=Modern+Antiqua);
+
+body {
+    background-color: #000;
+    font-family: 'Modern Antiqua', cursive;
+    font-size: 13px;
+}
+
+#game-border {
+    position: relative;
+    width: 850px;
+    height: 662px;
+    background:url('data/graphics/game_border.jpg') transparent no-repeat;
+    float: left;
+}
+
+#cachania {
+    position: absolute;
+    top: 81px;
+    left: 25px;
+    width: 800px;
+}
+
+ul li {
+    margin-top: 15px;
+}
+
+a {
+    color : #aaa;
+    text-decoration: none;
+}
+
+a:hover {
+    color : #ff0;
+}
+
+.sidebar {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    color: #777;
+    float: left;
+}
+
+.sidebar h2 {
+    text-decoration: underline;
+}
+
+.sidebar p {
+    margin-bottom: 20px;
+}
+
+span.keys{
+    color: #99f;
+}
+
+#coinBagsNorth {
+    position: absolute;
+    left: 385px;
+    top: 591px;
+}
+
+#coinBagsEast {
+    position: absolute;
+    left: 385px;
+    top: 629px;
+}
+
+#coinBagsNorth img,
+#coinBagsEast img {
+    float: left;
+}
+
+#messageLayer {
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+    width: 650px;
+    height: 100px;
+    padding: 10px;
+    background: url('data/graphics/message_background.png') no-repeat;
+    display: none;
+}
+
+#messageLayer img.npcImage {
+    position: absolute;
+    top: 26px;
+    left: 25px;
+}
+
+#messageLayer .npcText {
+    position: absolute;
+    top: 22px;
+    left: 90px;
+    width: 530px;
+    height: 60px;
+    color : #fff;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+span.countryName {
+    color: #002b6f;
+}
+
+span.npcName {
+    color: #ff0;
+    text-decoration: underline;
+}
+
+#hiddenText {
+    width: 530px;
+    height: auto;
+    display: none;
+}
+
+#levelLoader {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 250px;
+    height: 500px;
+    overflow: auto;
+    background-color: #fff;
+    color: #000;
+    padding: 5px;
+}
+
+#levelLoader ul li {
+    margin-top: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+#fake_coord_warning {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#img_col, #img_bw { display:none; }
+
+.faq_link {
+    font-size: 24px;
+    margin-left: 40px;
+}
